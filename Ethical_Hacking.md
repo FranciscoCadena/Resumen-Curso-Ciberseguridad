@@ -17,7 +17,7 @@ Donde las principales amenazas a enfrentar son:
 
 En este apartado se habla de la identificación digital, los tipos que existen de claves, su uso, ventajas y desventajas de cada uno partiendo de la siguiente teoría que se resume con la siguiente imagen.
 
-![Fase1](/ImagenesPI/FASE1.PNG "")
+![Fase1](/Imagenes/muyrobusto.PNG "")
 
 Dentro de esas claves están:
 - Simétrica
