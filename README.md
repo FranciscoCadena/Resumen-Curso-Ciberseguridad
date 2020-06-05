@@ -1,7 +1,7 @@
 # Introducción
 Este documento consiste en un resumen de la carrera de Ciberseguridad que se puede realizar en la pagina de Openwebinar el cual consiste de los siguientes cursos.
 
-- Introducción a Ethical Hacking
+- [Introducción a Ethical Hacking](https://github.com/FranciscoCadena/Resumen-Curso-Ciberseguridad/blob/master/Ethical_Hacking.md)
 - Curso de Triage Informático
 - Curso de Análisis de Malware
 - Curso de Hacking Web
