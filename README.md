@@ -7,7 +7,7 @@ Este documento consiste en un resumen de la carrera de Ciberseguridad que se pue
 - [Curso de Hacking Web](https://github.com/FranciscoCadena/Resumen-Curso-Ciberseguridad/blob/master/Hacking_web.md)
 - [Curso de Hacking con Buscadores](https://github.com/FranciscoCadena/Resumen-Curso-Ciberseguridad/blob/master/Hacking_Buscadores.md)
 - [Curso de Desarrollo Seguro](https://github.com/FranciscoCadena/Resumen-Curso-Ciberseguridad/blob/master/Desarrollo_Seguro.md)
-- Curso de OSINT
+- [Curso de OSINT](https://github.com/FranciscoCadena/Resumen-Curso-Ciberseguridad/blob/master/OSINT.md)
 - Curso de Metasploit
 - Curso de Snort
 
