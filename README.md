@@ -5,7 +5,7 @@ Este documento consiste en un resumen de la carrera de Ciberseguridad que se pue
 - [Curso de Triage Informático](https://github.com/FranciscoCadena/Resumen-Curso-Ciberseguridad/blob/master/Triage_Inform%C3%A1tico.md)
 - [Curso de Análisis de Malware](https://github.com/FranciscoCadena/Resumen-Curso-Ciberseguridad/blob/master/An%C3%A1lisis_Malware.md)
 - [Curso de Hacking Web](https://github.com/FranciscoCadena/Resumen-Curso-Ciberseguridad/blob/master/Hacking_web.md)
-- Curso de Hacking con Buscadores
+- [Curso de Hacking con Buscadores](https://github.com/FranciscoCadena/Resumen-Curso-Ciberseguridad/blob/master/Hacking_Buscadores.md)
 - Curso de Desarrollo Seguro
 - Curso de OSINT
 - Curso de Metasploit
