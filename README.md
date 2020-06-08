@@ -13,3 +13,5 @@ Este documento consiste en un resumen de la carrera de Ciberseguridad que se pue
 
 De los cuales algunos son mas teóricos y otros mas prácticos, en parte por la dificultad de realizar algunas pruebas sin entrar en lo ilegal.
 Se hará un resumen de cada curso, explicando brevemente los apartados de los cuales consisten. 
+
+En el documento de Practicas de Seguridad, se explican algunas practicas vistas en los cursos de seguridad, con videos.
