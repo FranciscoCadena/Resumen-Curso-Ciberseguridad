@@ -8,7 +8,7 @@ Por lo tanto lo que he realizado son algunos videos en donde se realizan practic
 
 ## Google hacking y Shodan
 
-### Primer Video
+### [Primer Video](https://youtu.be/sTft-cRLNxA)
 
 En este primer video se vera el primer paso que realiza todo auditor de seguridad o persona que quiera realizar un ataque, el cual consiste en recabar toda la información que se pueda de una posible victima.
 
@@ -68,11 +68,11 @@ Algunos de los ejemplos que veremos sera ver dispositivos en españa con _countr
 Uno de los problemas de esta practica es que cuando realizas muchos Dorks  en Goolge, es posible que te salte la típica advertencia para comprobar si eres un bots.
 Con Shodan para poder realizar las búsquedas lo primero que debes hacer es registrarte, y al igual que google tiene un determinado numero de consultas por día como se podrá ver en el video donde nos dará un error en una de las consultas, por ello se ha de esperar 24 horas asta poder realizar de nuevo consultas, por eso el otro video mas corto es solo de consultas shodan. 
 
-### Segundo video
+### [Segundo video](https://youtu.be/8clDK_9lm-A)
 
 Este video es sobre las consultas en el servidor Shodan debido a que en el primero salto el error de no poder realizar mas consultas en ese día.
 
-## SQL Injection
+## [SQL Injection](https://youtu.be/rOrwRrh_BFA)
 
 En este video se realizara la practica vista en uno de los cursos de seguridad sobre __SQL Injection__ el cual es un método de infiltración de código, ante la falta de validación de campos, en operaciones sobre una base de datos.
 
@@ -146,7 +146,7 @@ https://hashes.com/en7decrypt/hash
 
 ## XSS
 
-### Primer Video
+### [Primer Video](https://youtu.be/kMA1y-SLnlg)
 
 En este video se realizara una de las practicas realizadas en uno de los cursos de seguridad sobre ataques con __XSS__ este  es un ataque dirigido a páginas web y consistente en
 poder inyectar código HTML y Javascript sin que sea validado para conseguir algún provecho.
@@ -244,7 +244,7 @@ La forma saber si es vulnerable a XSS, será realizando la comprobación a trav�
 ~~~
 http://localhost/xss3/xss.php?vuln=<SCRIPT>alert(5);</SCRIPT>
 ~~~
-### Segundo Video de XSS
+### [Segundo Video de XSS](https://youtu.be/KrW_g0RX2uA)
 
 En esta segunda parte del video se realizara las practicas en el entorno web DVWA, donde se realizara una prueba persistente.
 XSS Persistente (Stored)
@@ -259,7 +259,7 @@ Será necesario levantar un servicio a la escucha por si llega información de a
 
 Si se accede a través de alguna herramienta de __CookieManager__ y se cambia la cookie, al actualizar el home de DVWA se habrá robado la sesión del Administrador.
 
-## Exiftool
+## [Exiftool](https://youtu.be/OxcxKxX9lKQ)
 
 ### Datos Exif
 
