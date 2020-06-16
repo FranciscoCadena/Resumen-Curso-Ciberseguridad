@@ -1,5 +1,6 @@
 # Introducción
-Este documento consiste en un resumen de la carrera de Ciberseguridad que se puede realizar en la pagina de Openwebinar el cual consiste de los siguientes cursos.
+
+Este documento consiste en un resumen de la carrera de Ciberseguridad que se puede realizar en la página de Openwebinar el cual consiste de los siguientes cursos.
 
 - [Introducción a Ethical Hacking](https://github.com/FranciscoCadena/Resumen-Curso-Ciberseguridad/blob/master/Ethical_Hacking.md)
 - [Curso de Triage Informático](https://github.com/FranciscoCadena/Resumen-Curso-Ciberseguridad/blob/master/Triage_Inform%C3%A1tico.md)
@@ -11,7 +12,7 @@ Este documento consiste en un resumen de la carrera de Ciberseguridad que se pue
 - [Curso de Metasploit](https://github.com/FranciscoCadena/Resumen-Curso-Ciberseguridad/blob/master/Metasploit.md)
 - [Curso de Snort](https://github.com/FranciscoCadena/Resumen-Curso-Ciberseguridad/blob/master/Snort.md)
 
-De los cuales algunos son mas teóricos y otros mas prácticos, en parte por la dificultad de realizar algunas pruebas sin entrar en lo ilegal.
-Se hará un resumen de cada curso, explicando brevemente los apartados de los cuales consisten. 
+De los cuales algunos son más teóricos y otros más prácticos, en parte por la dificultad de realizar algunas pruebas sin entrar en lo ilegal. 
+Se hará un resumen de cada curso, explicando brevemente los apartados de los cuales consisten.
 
-En el documento de [Practicas de Seguridad](https://github.com/FranciscoCadena/Resumen-Curso-Ciberseguridad/blob/master/Practicas_Seguridad.md), se explican algunas practicas vistas en los cursos de seguridad, con videos.
+En el documento de [Prácticas de Seguridad](https://github.com/FranciscoCadena/Resumen-Curso-Ciberseguridad/blob/master/Practicas_Seguridad.md), se explican algunas prácticas vistas en los cursos de seguridad, con videos.
