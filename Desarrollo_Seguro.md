@@ -66,3 +66,4 @@ Donde al igual que en los anteriores apartados se nos hablará de la importancia
 
 Lo más interesante de este apartado son las prácticas de cada uno donde se nos muestra los problemas que pueden suceder si no se toma las medidas pertinentes.
 
+[Inicio](https://franciscocadena.github.io/Resumen-Curso-Ciberseguridad/)
