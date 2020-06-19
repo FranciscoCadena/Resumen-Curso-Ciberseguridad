@@ -292,4 +292,4 @@ exiftool -exif:gpslatitude=”38.951206600” nombre_imagen.jpg -exi:gpslatitude
 
 Evidentemente los datos de la longitud y latitud son de ejemplo se pueden introducir los que uno quiera.
 
-
+[Inicio](https://franciscocadena.github.io/Resumen-Curso-Ciberseguridad/)
