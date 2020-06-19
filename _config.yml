@@ -5,18 +5,15 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - Fase1_GNS3.md
-  - Fase2_GNS3.md
-  - Fase3_GNS3.md
+  - Análisis_Malware.md
+  - Desarrollo_Seguro.md
+  - Ethical_Hacking.md
   - Lista_de_Pruebas.md
+  - Hacking_Buscadores.md
+  - Hacking_web.md
+  - Metasploit.md
+  - OSINT.md
+  - Snort.md
+  - Triage_Informático.md
   - README.md
-  - Recursos.md
-  - Suricata_Mikrotik.md
-  - Comprobaciones.md
-  - Definiciones.md
-  - Planificación_de_la_Red_de_una_empresa.md
-  - Configuración_Herramientas_Alta_Disponibilida.md
-  - Configuración_básica_de_la_Red.md
-  - Configuración_Herramientas_Seguridad.md
-  - ImagenesPI
-  - imagenesGNS3
+  - Imagenes
