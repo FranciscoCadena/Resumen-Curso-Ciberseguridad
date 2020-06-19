@@ -250,4 +250,4 @@ Por último se explica el uso del script Winenum el cual realiza gran cantidad d
 El último apartado consiste en cómo un hacker malicioso o incluso un auditor debe mantener el anonimato.
 Aquí se explica el uso e instalación de la herramienta TOR (The Onion Router) el cual es una Red compuesta por routers que ocultan la dirección IP origen del usuario.
 
-
+[Inicio](https://franciscocadena.github.io/Resumen-Curso-Ciberseguridad/)
