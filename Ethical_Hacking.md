@@ -17,7 +17,7 @@ Donde las principales amenazas a enfrentar son:
 
 En este apartado se habla de la identificación digital, los tipos que existen de claves, su uso, ventajas y desventajas de cada uno partiendo de la siguiente teoría que se resume con la siguiente imagen.
 
-![Gráfica para definir el concepto de muy robusto](/Imagenes/muyrobusto.PNG "Gráfica para definir el concepto de muy robusto")
+![Gráfica para definir el concepto de muy robusto](./Imagenes/muyrobusto.PNG "Gráfica para definir el concepto de muy robusto")
 
 Dentro de esas claves están:
 - Simétrica
