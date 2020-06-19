@@ -89,11 +89,11 @@ Todo este último apartado aunque se habla de temas simples y que todo el mundo 
 En concreto es importante conocer tu equipo y los programas que hay en él porque mediante un administrador de tareas puedes detectar estas anomalías antes nombradas, esto puede ayudar a deducir que algo no funciona bien y que sea posiblemente causa de un malware.  
 
 El último apartado de este curso se habla sobre emails sospechoso, archivos infectados y la técnica del phishing. Entre las maneras de sospechar sobre estos correos se aporta 5 ideas las cuales son:
-- El dominio de la dirección de email no coincide con el de la empresa.
-- Faltas de ortografía o de concordancia.
-- El correo solicita información personal.
-- El asunto del correo es de máxima alerta.
-- Generalmente se incluyen archivos adjuntos.
+- El dominio de la dirección de email no coincide con el de la empresa
+- Faltas de ortografía o de concordancia
+- El correo solicita información personal
+- El asunto del correo es de máxima alerta
+- Generalmente se incluyen archivos adjuntos
 
 [Inicio](https://franciscocadena.github.io/Resumen-Curso-Ciberseguridad/)
 
