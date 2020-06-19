@@ -114,5 +114,5 @@ También se nos explicara algunas herramientas que ya realizan algunas de estas 
 Por último se explica medidas para enmascarar la identidad, es decir la ubicación e ip que tenemos.
 Como por ejemplo realizar la investigación desde una máquina virtual, navegar con TOR, usar Proxy o VPN, etc.
 
-
+[Inicio](https://franciscocadena.github.io/Resumen-Curso-Ciberseguridad/)
 
