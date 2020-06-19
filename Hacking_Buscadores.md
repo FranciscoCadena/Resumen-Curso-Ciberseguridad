@@ -96,4 +96,4 @@ Se explicara como instalarlas, como trabajar con ellas capturando de manera prá
 
 También se nos explicara en qué son los datos Exif, mostrándonos ejemplos de ellos al capturar imágenes y poder ver todos los datos que estas contienen, como ver con que dispositivo se tomó la foto, el día y la hora, el formato de la imagen y mucha más información.
 
-
+[Inicio](https://franciscocadena.github.io/Resumen-Curso-Ciberseguridad/)
